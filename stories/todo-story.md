@@ -13,8 +13,11 @@ In this first pass at the application, we need to keep track of the following da
 This edition of the application needs to support the following operations:
 
  * **List** : return a list of all active ToDo records in the system
- * **Add** : add a new ToDo record to the system
- * **Remove** : remove a completed ToDo record from the system
+ * **Search** : return a filtered list of all active ToDo records (search the **body** field)
+ * **Read** : return a single ToDo record (by URL)
+ * **Add** : add a new ToDo record to the system (send the **body**, server supplies the **id**)
+ * **Update** : modify an existing ToDo record (update the **body**)
+ * **Remove** : remove a completed ToDo record from the system (by URL)
 
 NOTE: In this edition, we will not track any history of completed ToDo items.
 
